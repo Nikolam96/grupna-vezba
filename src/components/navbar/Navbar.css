@@ -1,0 +1,34 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background: transparent;
+}
+
+.tesla-navbar {
+  width: 8rem;
+}
+
+.navbar-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-link ul li {
+  padding: 0.4em 0.9em;
+}
+
+.navbar-link ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
