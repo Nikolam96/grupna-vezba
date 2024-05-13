@@ -1,10 +1,13 @@
 import { useState } from "react";
+import Navbar from "./components/navbar/Navbar";
+import ModelY from "./components/modelY/ModelY";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <p>test123 test123 test1234</p>
+      <Navbar />
+      <ModelY />
     </>
   );
 }
