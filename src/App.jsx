@@ -4,9 +4,7 @@ import "./App.css";
 function App() {
   return (
     <>
-
-      <p>test test test</p>
-
+      <p>new commit </p>
     </>
   );
 }
